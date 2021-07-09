@@ -1,0 +1,1 @@
+exec sp_MSforeachtable "ALTER TABLE ? NOCHECK CONSTRAINT ALL PRINT'? constraint altered'"
